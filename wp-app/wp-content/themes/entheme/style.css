@@ -1,0 +1,124 @@
+/*
+Theme Name: ENtheme
+Theme URI: http://www.yourtheme.com
+Description: A brief description of your theme.
+Author: Your Name
+Author URI: http://www.yourwebsite.com
+Version: 1.0
+Text Domain: your-theme-slug
+*/
+
+
+main {
+  margin-top: 20vh;
+}
+
+a{
+  color: black !important;
+}
+
+/* Ta bort punktlistmarkeringen från ul */
+ul.meta {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ställ in listelement (li) bredvid varandra i en rad */
+ul.meta li {
+  display: inline-block;
+  margin-right: 20px; /* Justera mellanrum mellan listelementen efter behov */
+}
+
+/* Nollställ liststilen för ul och li */
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: black !important; 
+}
+
+
+/* Skapa mellanrum mellan img och ul */
+article img {
+  margin-bottom: 10px; /* Justera avståndet efter behov */
+}
+
+/* Skapa mellanrum mellan ul och the_excerpt */
+article ul.meta {
+  margin-top: 10px; /* Justera avståndet efter behov */
+  margin-bottom: 30px;
+}
+
+/* Styla inlägg med en border */
+.article.post {
+  border: 1px solid black; /* Ändra tjocklek och färg efter behov */
+  padding: 20px; /* Lägg till padding för att skapa avstånd mellan innehållet och border */
+  margin-bottom: 20px; /* Lägg till ett mellanrum mellan varje inlägg */
+}
+
+
+.social-media-icons{
+  display: -moz-inline-stack;
+  margin-right: 20px; /* Justera mellanrum mellan listelementen efter behov */
+}
+
+
+.navbar-nav a {
+       text-decoration: none;     
+      }
+
+/* Front-Page */
+ 
+.img-wrapper {
+  position: relative;
+  max-width: 100%;
+}
+ 
+.img-container {
+  position: relative;
+  max-width: 100%;
+}
+ 
+.background-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+ 
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+  width: 80%; /* Justera bredden efter behov */
+  max-width: 600px; /* Ange maxbredden för texten */
+  margin: 0 auto; /* Centrera texten horisontellt */
+}
+
+.back-to-home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;/* Färg för knappen */
+  color: whitesmoke !important; /* Textfärg för knappen */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-home-button:hover {
+  background-color: grey; /* Färg för knappen vid hover-tillstånd */
+}
+
+
+/*Search css */
+/* Anpassade stilar för sökresultatkort */
+.custom-height {
+  height: 200px; /* Ange den önskade höjden här */
+}
+
+
